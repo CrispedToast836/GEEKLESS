@@ -4,7 +4,9 @@ Jogo de adivinhar música no estilo *Songless*, com uma playlist de rap geek/ani
 
 Toca um trecho curto da faixa — você tem 6 tentativas, e cada erro ou pulo libera mais alguns segundos. Quanto antes acertar, mais pontos.
 
-**Jogar:** abra o `index.html` no navegador, ou acesse pelo GitHub Pages.
+### ▶ [Jogue aqui](https://crispedtoast836.github.io/GEEKLESS/)
+
+Ou baixe o repositório e abra o `index.html` no navegador.
 
 ## Como funciona
 
@@ -24,11 +26,11 @@ audio/          60 trechos de 15s, um .mp3 por faixa
 
 Não tem build, framework nem servidor: é um site estático. A única coisa que vem de fora são as fontes do Google Fonts.
 
-## Publicar no GitHub Pages
+## Tecnologias
 
-No repositório: **Settings → Pages → Source: Deploy from a branch → Branch: `main` / `(root)` → Save**.
-
-Em um ou dois minutos o jogo fica em `https://SEU-USUARIO.github.io/geekless/`.
+- **HTML, CSS e JavaScript puro**, sem frameworks
+- **ffmpeg** para recortar os trechos e normalizar o volume dos áudios
+- **GitHub Pages** para a hospedagem
 
 ## Trocar ou adicionar músicas
 
@@ -54,4 +56,4 @@ O `title` é o que o jogador digita para acertar, e também o que aparece no aut
 
 ## Sobre os áudios
 
-Os arquivos em `audio/` são trechos de 15 segundos usados para o jogo. Os direitos das músicas são dos respectivos artistas — este é um projeto pessoal, sem fins comerciais. Se você for publicar, considere deixar o repositório privado ou substituir pelos seus próprios áudios.
+Os arquivos em `audio/` são trechos de 15 segundos usados para o jogo. Os direitos das músicas são dos respectivos artistas — este é um projeto pessoal, sem fins comerciais. Se for fazer a sua própria versão, use os seus próprios áudios.
