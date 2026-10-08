@@ -505,6 +505,8 @@ footer{margin-top:28px;text-align:center;color:var(--muted);font-size:12px;opaci
    aqui com o slug (= nome do arquivo sem .mp3), o título e o artista.
    O título é o que o jogador digita para acertar.
    ============================================================ */
+const AUDIO_DIR = 'audio';
+
 const TRACKS = [
   {id:0, slug:"7minutoz-judas", title:"JUDAS", artist:"7 Minutoz"},
   {id:1, slug:"7minutoz-rap-da-akatsuki", title:"Rap da Akatsuki", artist:"7 Minutoz"},
@@ -567,8 +569,6 @@ const TRACKS = [
   {id:58, slug:"oshaman-parasita", title:"Parasita", artist:"oShaman e OSteve"},
   {id:59, slug:"eodan-jujutsu-cypher", title:"Jujutsu Cypher", artist:"ÉoDan, Dé Barros e Anny"}
 ].map(t => ({...t, audio: `${AUDIO_DIR}/${t.slug}.mp3`}));
-
-const AUDIO_DIR = 'audio';
 
 const STAGES = [1, 2, 4, 6, 9, 13];
 const MAX_TRIES = STAGES.length;
